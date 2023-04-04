@@ -85,7 +85,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"THBTON | {HM}"
+        name = f"{HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -206,7 +206,7 @@ async def _(event):
     await event.delete()
     pic = await rr9r7.download_media()
     await sython.send_file(
-        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝘀𝘆𝘁𝗵𝗼𝗻"
+        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : thbton"
     )
 
 
@@ -434,9 +434,9 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ 𝐬𝐲𝐭𝐡𝐨𝐧 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+♔ THBTON 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐲𝐭𝐡𝐨𝐧
+❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 THBTON
 ❖╎𝐝𝐞𝐯𝐥𝐨 : hussein.ali
 ❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @THBTON
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 1.1 - revised 
