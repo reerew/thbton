@@ -580,7 +580,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("**جاري اعادة تشغيل السورس**")
+    await event.edit("** @THBTON جاري اعادة تشغيل السورس**")
     await sython.disconnect()
     await sython.send_message("me", "**اكتملت اعادة تشغيل السورس**")
 c = requests.session()
@@ -591,7 +591,7 @@ bot_username = '@t06bot'
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | @THBTON ')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@t06bot', '/start')
         await asyncio.sleep(5)
