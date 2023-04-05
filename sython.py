@@ -71,7 +71,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@THBTON"))
+        await sython(JoinChannelRequest("https://t.me/THBTON"))
     except BaseException:
         pass
 
